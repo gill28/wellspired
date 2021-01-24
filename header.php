@@ -19,6 +19,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Raleway:wght@900&display=swap" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
@@ -27,16 +29,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar">
-<script>
-	function myFunction() {
-	var x = document.querySelector(".header");
-	if (x.style.display === "none") {
-		x.style.display = "block";
-	} else {
-		x.style.display = "none";
-	}
-}
-</script>
 	<header id="masthead" class="site-header" role="banner">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="header-container">
@@ -65,7 +57,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="navigation container">
 					<div class="row">
 						<!-- Navigation Menu Link Lists -->
-						<div class="header-box p-4 col-md-6 bg-primary col-lg-12 position-absolute">
+						<div class="header-box p-4 col-md-6 col-lg-12 position-absolute">
 							<div>
 								<div class="header-titles text-right">
 									<?php
@@ -95,4 +87,4 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 
-	</div><!-- #wrapper-navbar end -->
+
